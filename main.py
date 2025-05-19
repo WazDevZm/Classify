@@ -20,4 +20,8 @@ def load_model():
 def preprocess_image(image):
     # corecy frmat of the image to be passed to the model
     img = np.array(image) # cobnverts h imge into an arra of numbers
+    img =cv2.resize(img, (224, 224)) # resize the image to 224x224 pixels
+    img = preprocess_input(img)
+    img - np.expand_dims(img, axis=0) # add a batch dimension, this is a bacth dimension
+    
     
