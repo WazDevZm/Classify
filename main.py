@@ -44,7 +44,7 @@ def classify_image(model, image):
 
 def main():
     st.set_page_config(page_title="Classify", page_icon="🖼️", layout="centered")
-    st.title("ClassifY")
+    st.title("ClassifY🖼️")
     st.write("Upload an image to classify it🥳.")    
 
     @st.cache_resource
