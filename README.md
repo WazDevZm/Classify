@@ -12,7 +12,7 @@ ClassifY is a lightweight image classification application built using OpenCV, S
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/WazDevZm/Classify.git
    cd Classify
    ```
 2. Install the required dependencies:
